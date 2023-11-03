@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar DOM</title>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script type ="text/javascript">
+        //Seleksi elemen div dengan id 'app'
+        const app = document.getElementById('app');
+
+        //Buat elemen heading h1 baru
+        const header = document.createElement('h1');
+
+        //Buat text node untuk elemen h1 di atas
+        const headerContent = document.createTextNode('Belajar React 🏁');
+
+        //Append (tambah) teks ke dalam h1
+        header.appendChild(headerContent);
+
+        //Simpan elemen h1 di dalam div
+        app.appendChild(header);
+    </script>
+
+</body>
+</html>
+
