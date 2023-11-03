@@ -44,6 +44,7 @@ const App = () => {
   }
 
   return (
+    <>
     <div className="App">
       <header className="App-header">
         <h1>YUDHI MOVIE CUY!</h1>
@@ -57,6 +58,10 @@ const App = () => {
         </div>
       </header>
     </div>
+    <div className="footer">
+          Copyright 2023.
+      </div></>
+    
   )
 }
 
